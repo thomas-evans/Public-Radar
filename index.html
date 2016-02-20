@@ -1,16 +1,21 @@
 <!DOCTYPE html>
-<!--[if IE 8]>         <html lang="en" ng-app="publicRadar" class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html lang="en" ng-app="publicRadar" class="no-js"> <!--<![endif]-->
+<!--[if IE 8]>         <html lang="en" ng-app="publicRadar" ng-strict-di class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" ng-app="publicRadar" ng-strict-di class="no-js"> <!--<![endif]-->
 <head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>${1:Title}</title>
-  <meta name="description" content="${2: Description}" />
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Public Radar</title>
+    <meta name="description" content="Public-Radar: A web app to help folks find stuff and enjoy their surroundings." />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="node_modules\bootstrap\dist\css\bootstrap.css" />
 </head>
 <body>
-  <!--[if lt IE 9]>
-      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-  <![endif]-->
+    <!--[if lt IE 9]>
+        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <main class="container" ng-view></main>
+    <script type="text/javascript" src="node_modules\angular\angular.js"></script>
+    <script type="text/javascript" src="node_modules\angular-route\angular-route.js"></script>
+    <script type="text/javascript" src="publicRadar.js"></script>
 </body>
 </html>

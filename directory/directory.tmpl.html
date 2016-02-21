@@ -1,0 +1,28 @@
+<section class="heading">
+    <div class="row">
+        <div class="col-xs-12 col-lg-10 col-lg-offset-1">
+            <h1 class="headingh1">Directory</h1>
+        </div>
+    </div>
+</section>
+<section class="filter"></section>
+<section class="results">
+    <div class="row" ng-repeat="data in directory.directoryData">
+        <div class="col-xs-12 col-lg-10 col-lg-offset-1 panel panel-default">
+            <div class="row panel-body">
+                <div class="col-xs-12 col-lg-2">
+                    <img ng-src="{{data.picture}}" />
+                </div>
+                <div class="col-xs-12 col-lg-4">
+                    <h2>{{data.company}}</h2>
+                    <p>Phone : {{data.phone}}</p>
+                    <p>Address : {{data.address}} {{data.city}}, {{data.state}} {{data.zip}}</p>
+                    <p>Tags : {{data.tags}}</p>
+                </div>
+                <div class="col-xs-12 col-lg-6">
+                    <p>{{data.about}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

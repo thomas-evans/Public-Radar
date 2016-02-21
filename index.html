@@ -8,14 +8,24 @@
     <meta name="description" content="Public-Radar: A web app to help folks find stuff and enjoy their surroundings." />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="node_modules\bootstrap\dist\css\bootstrap.css" />
+    <link rel="stylesheet" href="resources\publicRadar.css" />
 </head>
 <body>
     <!--[if lt IE 9]>
         <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
-    <main class="container" ng-view></main>
+    <header class="container-fluid">
+        <nav class="navbar navbar-default">
+            <div class="navbar-header"><a class="navbar-brand">Public Radar</a></div>
+        </nav>
+    </header>
+    <main class="container-fluid" ng-view></main>
     <script type="text/javascript" src="node_modules\angular\angular.js"></script>
     <script type="text/javascript" src="node_modules\angular-route\angular-route.js"></script>
     <script type="text/javascript" src="publicRadar.js"></script>
+    <script type="text/javascript" src="directory\directory.js"></script>
+    <script type="text/javascript" src="classifieds\classifieds.js"></script>
+    <script type="text/javascript" src="stories\stories.js"></script>
+    <script type="text/javascript" src="weather\weather.js"></script>
 </body>
 </html>

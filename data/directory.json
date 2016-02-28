@@ -2,6 +2,7 @@
   {
     "_id": "56c938e9bd2d763e14374493",
     "index": 0,
+    "type": "foo",
     "isActive": false,
     "picture": "http://placehold.it/124x124",
     "company": "ACRODANCE",
@@ -28,6 +29,7 @@
   {
     "_id": "56c938e97724d642f55deefd",
     "index": 1,
+    "type": "bar",
     "isActive": false,
     "picture": "http://placehold.it/124x124",
     "company": "ZORK",
@@ -54,6 +56,7 @@
   {
     "_id": "56c938e93022e152b22c5ce9",
     "index": 2,
+    "type": "foo",
     "isActive": false,
     "picture": "http://placehold.it/124x124",
     "company": "RODEOMAD",
@@ -80,6 +83,7 @@
   {
     "_id": "56c938e9633420ff603bf153",
     "index": 3,
+    "type": "bar",
     "isActive": false,
     "picture": "http://placehold.it/124x124",
     "company": "OPTIQUE",
@@ -106,6 +110,7 @@
   {
     "_id": "56c938e94a5d7c4e12e72684",
     "index": 4,
+    "type": "fooBar",
     "isActive": true,
     "picture": "http://placehold.it/124x124",
     "company": "INTERGEEK",
@@ -132,6 +137,7 @@
   {
     "_id": "56c938e9c9ebb0a8bc3b234a",
     "index": 5,
+    "type": "foo",
     "isActive": true,
     "picture": "http://placehold.it/124x124",
     "company": "COGENTRY",
@@ -158,6 +164,7 @@
   {
     "_id": "56c938e9d0955249d7593ed2",
     "index": 6,
+    "type": "foo",
     "isActive": false,
     "picture": "http://placehold.it/124x124",
     "company": "ZOGAK",
@@ -184,6 +191,7 @@
   {
     "_id": "56c938e958b407a3efc1f866",
     "index": 7,
+    "type": "bar",
     "isActive": false,
     "picture": "http://placehold.it/124x124",
     "company": "NITRACYR",
@@ -210,6 +218,7 @@
   {
     "_id": "56c938e90f232021573388b0",
     "index": 8,
+    "type": "fooBar",
     "isActive": false,
     "picture": "http://placehold.it/124x124",
     "company": "TWIIST",
@@ -236,6 +245,7 @@
   {
     "_id": "56c938e965dd0c52d1ae067b",
     "index": 9,
+    "type": "fooBar",
     "isActive": false,
     "picture": "http://placehold.it/124x124",
     "company": "GEEKKO",
@@ -262,6 +272,7 @@
   {
     "_id": "56c938e968e69bd83166be88",
     "index": 10,
+    "type": "foo",
     "isActive": true,
     "picture": "http://placehold.it/124x124",
     "company": "LIQUIDOC",
@@ -288,6 +299,7 @@
   {
     "_id": "56c938e90e18818b9820632a",
     "index": 11,
+    "type": "bar",
     "isActive": false,
     "picture": "http://placehold.it/124x124",
     "company": "EARBANG",
@@ -314,6 +326,7 @@
   {
     "_id": "56c938e98f63f7a57ecafe14",
     "index": 12,
+    "type": "fooBar",
     "isActive": false,
     "picture": "http://placehold.it/124x124",
     "company": "LOCAZONE",
@@ -340,6 +353,7 @@
   {
     "_id": "56c938e9cd5081d1ef566e6d",
     "index": 13,
+    "type": "fooBar",
     "isActive": false,
     "picture": "http://placehold.it/124x124",
     "company": "GADTRON",
@@ -366,6 +380,7 @@
   {
     "_id": "56c938e97101bd9be1e2d599",
     "index": 14,
+    "type": "foo",
     "isActive": true,
     "picture": "http://placehold.it/124x124",
     "company": "PROVIDCO",
@@ -392,6 +407,7 @@
   {
     "_id": "56c938e9a7477846fd3fb338",
     "index": 15,
+    "type": "bar",
     "isActive": true,
     "picture": "http://placehold.it/124x124",
     "company": "BIFLEX",
@@ -418,6 +434,7 @@
   {
     "_id": "56c938e9874e87cc5015494f",
     "index": 16,
+    "type": "fooBar",
     "isActive": true,
     "picture": "http://placehold.it/124x124",
     "company": "MAZUDA",
@@ -444,6 +461,7 @@
   {
     "_id": "56c938e96fb1fc5105eb1944",
     "index": 17,
+    "type": "bar",
     "isActive": true,
     "picture": "http://placehold.it/124x124",
     "company": "KAGGLE",

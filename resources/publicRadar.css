@@ -4,3 +4,17 @@ h1.headingh1{
 h2{
     margin-top: 0px;
 }
+.filterButtonDiv{
+    height: 112px;
+    line-height: 112px;
+    text-align: right;
+}
+.filterButtonDiv button{
+    vertical-align: middle;
+}
+.open{
+    display: block;
+}
+.closed{
+    display: none;
+}

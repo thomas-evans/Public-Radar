@@ -1,13 +1,30 @@
 <section class="heading">
     <div class="row">
-        <div class="col-xs-12 col-lg-10 col-lg-offset-1">
+        <div class="col-xs-10 col-lg-8 col-lg-offset-1">
             <h1 class="headingh1">Directory</h1>
+        </div>
+        <div class="col-xs-2 col-lg-2 filterButtonDiv">
+            <button class="btn btn.default" title="categories" ng-click="directory.categoryStatus = !directory.categoryStatus"><span class="fa fa-tags"></span></button>
+            <button class="btn btn.default" title="filter" ng-click="directory.filterStatus = !directory.filterStatus"><span class="fa fa-filter"></span></button>
         </div>
     </div>
 </section>
-<section class="filter"></section>
+<section class="filters" ng-class="directory.filterStatus ? 'open' : 'closed'">
+    <div class="row">
+        <div class="col-xs-12 col-lg-10 col-lg-offset 1">
+
+        </div>
+    </div>
+</section>
+<section class="categories" ng-class="directory.categoryStatus ? 'open' : 'closed'">
+    <div class="row">
+        <div class="col-xs-12 col-lg-10 col-lg-offset 1">
+
+        </div>
+    </div>
+</section>
 <section class="results">
-    <div class="row" ng-repeat="data in directory.directoryData">
+    <div class="row" ng-repeat="data in directory.displayData">
         <div class="col-xs-12 col-lg-10 col-lg-offset-1 panel panel-default">
             <div class="row panel-body">
                 <div class="col-xs-12 col-lg-2">

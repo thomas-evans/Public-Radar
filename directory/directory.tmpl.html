@@ -9,16 +9,18 @@
         </div>
     </div>
 </section>
-<section class="filters" ng-class="directory.filterStatus ? 'open' : 'closed'">
+<section class="categories" ng-class="directory.categoryStatus ? 'open' : 'closed'">
     <div class="row">
-        <div class="col-xs-12 col-lg-10 col-lg-offset 1">
-
+        <div class="col-xs-10 col-lg-7 col-lg-offset-1">
+            <ul class="list-inline">
+                <li ng-repeat="data in directory.categoryData"><a ng-click="directory.getData(data)">{{data | capitalize:true}}</a></li>
+            </ul>
         </div>
     </div>
 </section>
-<section class="categories" ng-class="directory.categoryStatus ? 'open' : 'closed'">
+<section class="filters" ng-class="directory.filterStatus ? 'open' : 'closed'">
     <div class="row">
-        <div class="col-xs-12 col-lg-10 col-lg-offset 1">
+        <div class="col-xs-10 col-lg-8 col-lg-offset-1">
 
         </div>
     </div>

@@ -18,3 +18,9 @@ h2{
 .closed{
     display: none;
 }
+.categories ul.list-inline{
+    margin-left: 0;
+}
+.categories ul.list-inline li{
+    cursor: pointer;
+}

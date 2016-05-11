@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="publicRadar" ng-strict-di class="no-js">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Public Radar</title>
+    <meta name="description" content="Public-Radar: A web app to help folks find stuff and enjoy their surroundings." />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="../node_modules/font-awesome/css/font-awesome.css" />
+    <link rel="stylesheet" href="resources/publicRadar.css" />
+</head>
+<body>
+    <!--[if lt IE 9]>
+        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <header>
+        <nav class="navbar navbar-default">
+            <div class="navbar-header"><a class="navbar-brand">Public Radar</a></div>
+        </nav>
+    </header>
+    <main class="container-fluid" ng-view></main>
+    <!--libraries-->
+    <script type="text/javascript" src="../node_modules/angular/angular.js"></script>
+    <script type="text/javascript" src="../node_modules/angular-route/angular-route.js"></script>
+    <!--homepage-->
+    <script type="text/javascript" src="publicRadar.module.js"></script>
+    <!--directory-->
+    <script type="text/javascript" src="directory/directory.module.js"></script>
+    <script type="text/javascript" src="directory/screens/directoryController.js"></script>
+    <script type="text/javascript" src="directory/components/directoryCategoryFactory.js"></script>
+    <script type="text/javascript" src="directory/components/directoryDataFactory.js"></script>
+    <script type="text/javascript" src="directory/components/capitalizeFilter.js"></script>
+    <script type="text/javascript" src="directory/components/testDirective.js"></script>
+    <!--classifieds-->
+    <script type="text/javascript" src="classifieds/classifieds.module.js"></script>
+    <!--stories-->
+    <script type="text/javascript" src="stories/stories.module.js"></script>
+    <!--weather-->
+    <script type="text/javascript" src="weather/weather.module.js"></script>
+</body>
+</html>

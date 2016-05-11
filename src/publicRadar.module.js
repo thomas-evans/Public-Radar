@@ -9,8 +9,8 @@
             controllerAs: 'public'
         })
         .when('/directory', {
-            templateUrl: 'directory/directory.tmpl.html',
-            controller: 'DirectoryCTRL',
+            templateUrl: 'directory/screens/directory.tmpl.html',
+            controller: 'DirectoryController',
             controllerAs: 'directory'
         })
         .when('/classifieds', {
